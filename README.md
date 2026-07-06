@@ -174,13 +174,13 @@ NGINX:
 
 ## 📌 9. DevOps Key Concepts to Remember
 
-* Web Server = Serves web content
-* Reverse Proxy = Forwards requests
-* Load Balancer = Distributes traffic
-* Application Server = Runs backend logic
-* Database = Stores data
-* HTTPS = Secure communication
 
+Web Server → serves web pages
+API → shares data between systems
+App Server → runs backend logic
+Reverse Proxy → forwards requests to backend
+Load Balancer → distributes traffic
+Database → stores data
 ---
 
 ## 📌 10. Simple One-Line Definitions
@@ -193,3 +193,36 @@ NGINX:
 * **HTTPS** → Encrypted web communication
 
 ---
+
+
+📌 Web Server
+
+A web server is software that receives requests from a browser and delivers web pages (HTML, CSS, images) or forwards requests to an application.
+
+👉 Example: Apache, NGINX
+
+📌 API (Application Programming Interface)
+
+An API is a set of rules that allows applications to communicate and exchange data with each other, usually in JSON format.
+
+📌 Application Server
+
+An application server runs the backend logic of an application, processes data, and interacts with the database.
+
+👉 Example: Node.js, Django, Spring Boot
+
+📌 Reverse Proxy
+
+A reverse proxy is a server that receives client requests and forwards them to backend servers, hiding the backend from users.
+
+👉 Example: NGINX in front of apps
+
+📌 Load Balancer
+
+A load balancer distributes incoming traffic across multiple servers to improve performance and availability.
+
+📌 Database
+
+A database is a system used to store, manage, and retrieve structured data.
+
+👉 Example: MySQL, PostgreSQL
